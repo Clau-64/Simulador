@@ -1,3 +1,4 @@
+
 /* 
   Importante: 
   No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
@@ -14,8 +15,12 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
-  
-}
+ // if buscarAmigo recibe toni y toni esta en var amigos, entonces return nombre: 'toni', edad: 33
+ for( item of amigos){
+  if(item.nombre == nombre) {
+    return item;
+}}
+ }
 
 // No modifiques nada debajo de esta linea //
 

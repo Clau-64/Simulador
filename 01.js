@@ -10,8 +10,16 @@ function soloNumeros(array) {
   // Ej: 
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
-  // Tu código aca:
-
+  // Tu código aca: 
+  
+  // var nuevoArray = []
+ // for (var i = 0; i < array.length; i++) {
+//  if(i >= 0 || i<= 0) 
+  // nuevoArray.push;
+//  };
+//   return nuevoArray;
+//   if (isInteger(variable)) {} 
+return array.filter(Number)
 }
 
 // No modifiques nada debajo de esta linea //
